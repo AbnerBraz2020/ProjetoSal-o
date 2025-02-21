@@ -2,15 +2,15 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0e0202; /*Cor de fundo geral*/
-    color: #020000;
+    background-color: #ffffff; /*Cor de fundo geral*/
+    color: #fcfcfc;
 }
 
 header {
-    background-color: aqua;
+    background-color: rgb(255, 251, 251);
     padding: 20px;
     text-align: center;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra no cabeçalho */
+    box-shadow: 0px 2px 5px rgb(2, 1, 1); /* Sombra no cabeçalho */
 }
 
 nav ul {
@@ -26,25 +26,35 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: hsl(0, 22%, 5%);
     font-weight: bold;
 }
 
 #services, #agendamento, #contato {
     padding: 20px;
     margin: 20px;
-    background-color: aquamarine; /* Cor de fundo das seções */
+    background-color: rgb(164, 165, 164); /* Cor de fundo das seções */
     border-radius: 5px; /* Bordas arredondadas */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra nas seções */
+    box-shadow: 0px 2px 5px rgb(7, 7, 7); /* Sombra nas seções */
+}
+
+h1 {
+    color: #000000;
 }
 
 h2 {
-    color: #666; /* Cor dos títulos */
+    color: #000000; /* Cor dos títulos */
 }
 
 footer {
-    background-color: #030101; /* Cor de fundo do rodapé */
+    background-color: #0a0707; /* Cor de fundo do rodapé */
     padding: 10px;
     text-align: center;
     box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Sombra no rodapé */
+}
+
+.top-left-image {
+    position: absolute; /* Posiciona de forma absoluta */
+    top: 0; /* Coloca a imagem no topo */
+    left: 0; /* Coloca a imagem à esquerda */
 }
