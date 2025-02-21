@@ -1,58 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salão de Beleza</title>
-    <link ref="stylesheet" href="/css/style.css">
+  <title>Salão de Beleza Exemplo</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
-
 <body>
-    <header>
-        <h1>Salão de Beleza</h1>
-        <nav>
-            <ul>
-                <li><a href="pages/services.html"></a></li>
-                <li><a href="pages/agendar.html"></a></li>
-                <li><a href="pages/contato.html"></a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>Salão de Beleza Exemplo</h1>
+    <nav>
+      <ul>
+        <li><a href="pages/sevicos.html">Serviços</a></li>
+        <li><a href="pages/agendar.html">Agendar</a></li>
+        <li><a href="pages/contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section id="agendamento">
-        <h2>Agendar um Hórario</h2>
-        <form id="formulario-agendamento">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required><br><br>
+  <section id="agendamento">
+    
+  </section>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
+  <footer>
+    <p>&copy; 2023 Salão de Beleza Exemplo</p>
+  </footer>
 
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" required><br><br>
-
-            <label for="servico">Serviços:</label>
-            <select id="servico" name="servico">
-                <option value="corte">Corte de Cabelo</option>
-                <option value="manicure">Manicure</option>
-                <option value="pedicure">Pedicure</option>
-            </select><br><br>
-
-            <label for="produtos">Produtos:</label>
-            <select id="produtos" name="produtos" multiple>
-                <option value="shampoo">Shampoo</option>
-                <option value="condicionador">Condicionador</option>
-                <option value="mascara">Máscara de Tratamento</option>
-            </select><br><br>
-
-            <button type="submit">Agendar</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Salão de Beleza</p>
-    </footer>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
-
 </html>
